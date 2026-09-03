@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class Q01_PriorityRecord {
-
+  
     public record Job(String id, int priority, long sequence) {}
-
+  
     public static List<String> processOrder(List<Job> jobs) {
         List<String> result = new ArrayList<>();
 
